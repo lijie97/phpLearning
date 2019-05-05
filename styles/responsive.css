@@ -1,0 +1,218 @@
+@media only screen and (min-width: 601px) {
+    .row .col.m3 {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .article-content p {
+        max-width: 290px;
+    }
+
+    .article-content h1 {
+        font-size: 18px;
+    }
+
+    .article-content figure.s-tag-media .frame img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .chapter .article-intro {
+        font-size: 14px;
+        width: 760px
+    }
+}
+@media screen and (max-width: 800px) {
+    .chapter .article-intro {
+        width: 360px;
+        padding-right: 0
+    }
+}
+@media screen and (max-width: 390px) {
+    .chapter .article-intro {
+        padding: 0 16px;
+        width: 100%
+    }
+}
+@media screen and (max-width: 390px) {
+    .article-content {
+        padding-left: 16px;
+        padding-right: 16px
+    }
+}
+@media screen and (max-width: 1240px) {
+    .chapter .chapter-intro>figure {
+        width: 760px
+    }
+}
+@media screen and (max-width: 800px) {
+    .chapter .chapter-intro>figure {
+        width: 360px
+    }
+}
+@media screen and (max-width: 390px) {
+    .chapter .chapter-intro>figure {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .chapter .article-title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 0;
+        padding-bottom: 12px;
+        padding-top: 15px
+    }
+}
+@media screen and (max-width: 390px) {
+    .chapter .article-title {
+        margin-bottom: 0;
+        padding: 15px 16px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .chapter .article:before {
+        height: 0
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .chapter .search-title {
+        padding: 0 16px 0 16px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .chapter .search-title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 16px
+    }
+
+    .col-list .col-3>div {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .chapter .chapter-title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 42px
+    }
+}
+@media screen and (max-width: 390px) {
+    .chapter .chapter-title {
+        padding-left: 16px;
+        padding-right: 16px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #grid-cont .chapter {
+        padding-top: 60px
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    #side-nav #logo {
+        height: 56px
+    }
+}
+
+@media screen and (max-width: 1479px) {
+    #side-nav {
+        visibility: hidden;
+        transform: translateX(-241px)
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .hamburger-button {
+        display: none
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .header-wrapper .header-title {
+        width: 760px
+    }
+}
+@media screen and (max-width: 800px) {
+    .header-wrapper .header-title {
+        font-size: 24px;
+        width: 360px;
+        margin-left: 0
+    }
+}
+
+@media screen and (max-width: 1479px) {
+    .header-wrapper {
+        padding-left: 0
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    header {
+        height: 128px;
+        padding-top: 73px
+    }
+}
+
+
+@media screen and (max-width: 1240px) {
+    #grid-cont section.grid_outer {
+        width: 760px
+    }
+}
+@media screen and (max-width: 800px) {
+    #grid-cont section.grid_outer {
+        width: 360px
+    }
+}
+@media screen and (max-width: 390px) {
+    #grid-cont section.grid_outer {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 1479px) {
+    #grid-cont {
+        padding-left: 0!important
+    }
+}
+@media screen and (max-width: 800px) {
+    #grid-cont {
+        padding-bottom: 50px
+    }
+}
+@media screen and (max-width: 1240px) {
+    .col-list .figure-figure-figure.col-3>div:nth-child(2) {
+        margin-right: 0
+    }
+    .col-list .figure-figure-figure.col-3>div:nth-child(2),
+    .col-list .module-module-module.col-3>div:nth-child(2) {
+        margin-right: 0
+    }
+    .col-list .figure-module-module.col-3>div:nth-child(1),
+    .col-list .module-figure-figure.col-3>div:nth-child(1),
+    .col-list .module-module-figure.col-3>div:nth-child(1) {
+        display: block;
+        width: auto
+    }
+   
+    .col-list .figure-figure-figure.col-3>div {
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+}
